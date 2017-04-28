@@ -53,7 +53,66 @@ span {
 }
 
 /*image*/
-.img-fluid {
+.img-responsive {
 	width: 100%;
 }
 
+/*about me*/
+h2 {
+	font-size: 20px;
+	font-family: 'Cookie', cursive;
+	color: #D77789;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+/*portfolio*/
+
+h3 {
+	font-size: 15px;
+}
+
+.thumbnail p {
+	font-size: 12px;
+	color: #D77789;
+}
+
+/*last seciton*/
+.section h2 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #2D2D2D;
+}
+
+.footer p {
+	margin-top: 50px;
+	font-family: 'Cookie', cursive;
+	font-size: 17px;
+	color: #D77789;
+
+}
+
+.footer button {
+	background-color: #2D2D2D;
+	color: white;
+	text-shadow: none;
+	border: none;
+}
+
+.sns {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.sns a {
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+}
