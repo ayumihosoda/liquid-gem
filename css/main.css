@@ -20,7 +20,6 @@ body {
 
 
 .fa {
-	color: #D77789;
     padding-right: 5px;
 }
 
@@ -28,6 +27,10 @@ body {
 	font-family: 'Cookie', cursive;
 	font-size: 20px;
 	color: #545454;
+}
+
+.navbar-brand i {
+	color: #D77789;
 }
 
 .nav a {
@@ -68,10 +71,20 @@ h2 {
 	margin-top: 40px;
 }
 
+#about p {
+	margin-top: 20px;
+	text-align: left;
+}
+
 /*portfolio*/
 
 h3 {
 	font-size: 15px;
+}
+
+.thumbnail {
+	height: 200px;
+
 }
 
 .thumbnail p {
@@ -107,12 +120,14 @@ h3 {
 }
 
 .sns {
-	margin-top: 30px;
+	margin-top: 175px;
 	text-align: center;
 }
 
 .sns a {
+	color: #D77789;
 	padding: 5px;
 	margin: 5px;
 	font-size: 20px;
+	border-radius: 30px;
 }
